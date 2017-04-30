@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_below="@id/TITLE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.facedetect.view.AnimationCircleView
+        android:id="@+id/search_help_view1"
+        android:layout_width="match_parent"
+        android:background="#00000000"
+        android:visibility="visible"
+        android:layout_height="match_parent" />
+    <include
+        android:id="@+id/TITLE"
+        layout="@layout/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/icon_leida_background" />
+        <ImageView
+            android:id="@+id/search_help_light"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/icon_leida" />
+    </RelativeLayout>
+
+</RelativeLayout>

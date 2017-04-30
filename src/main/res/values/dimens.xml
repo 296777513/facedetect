@@ -1,0 +1,74 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="common_title_height">40dp</dimen>
+    <!--字体的5种大小，全局使用这5种字体大小-->
+    <dimen name="font_size_xsmall">13dp</dimen>
+    <dimen name="font_size_small">15dp</dimen>
+    <dimen name="font_size_middle">16dp</dimen>
+    <dimen name="font_size_large">19dp</dimen>
+    <dimen name="font_size_xlarge">16dp</dimen>
+
+    <!--控件距离左右屏幕的距离-->
+    <dimen name="item_margin_left_right">11dp</dimen>
+    <!--按钮个高度-->
+    <dimen name="button_height">35dp</dimen>
+    <!--控件之间的间隔-->
+    <dimen name="item_distance">5dp</dimen>
+    <!--控件之间高的间隔-->
+    <dimen name="item_height_distance">8dp</dimen>
+    <!--输入框的统一高度-->
+    <dimen name="textInput_height">40dp</dimen>
+
+    <!--聊天界面输入框的距离内容的距离-->
+    <dimen name="chat_padding_common">10dp</dimen>
+    <!--聊天界面输入框的距离内容的距离-->
+    <dimen name="chat_padding_special">20dp</dimen>
+    <!--对话框与头像之间的距离-->
+    <dimen name="chat_image_distance">4dp</dimen>
+    <!--头像大小-->
+    <dimen name="chat_head_icon_dimen">35dp</dimen>
+    <!--对话框最大长度-->
+    <dimen name="chat_item_maxLength">240dp</dimen>
+    <!--小ICON的大小-->
+    <dimen name="chat_progress_delIcon_size">18dp</dimen>
+    <!--选择图标大小-->
+    <dimen name="chat_icon_size">25dp</dimen>
+    <!--功能图标大小-->
+    <dimen name="chat_icon_more_size">51dp</dimen>
+    <!--图标距离-->
+    <dimen name="chat_icon_distance">7dp</dimen>
+    <!--聊天内容距顶部距离-->
+    <dimen name="chat_top_distance">18dp</dimen>
+    <!--聊天定位框的高度-->
+    <dimen name="chat_location_height">94dp</dimen>
+    <!--聊天定位框图片的高度-->
+    <dimen name="chat_location_image_height">74dp</dimen>
+    <!--聊天定位框文字间距离-->
+    <dimen name="chat_location_image_text_distance">2dp</dimen>
+    <!--聊天定位框文字最大长度-->
+    <dimen name="chat_location_image_text_maxWidth">130dp</dimen>
+    <!--聊天定位框的长度-->
+    <dimen name="chat_location_maxWidth">235dp</dimen>
+
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_25dp">25dp</dimen>
+    <dimen name="dimen_27dp">27dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_276dp">276dp</dimen>
+    <dimen name="dimen_250dp">250dp</dimen>
+    <dimen name="dimen_43dp">43dp</dimen>
+    <dimen name="dimen_9dp">9dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_11dp">11dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_13dp">13dp</dimen>
+    <dimen name="dimen_14dp">14dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_3dp">3dp</dimen>
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="dimen_7dp">7dp</dimen>
+    <dimen name="dimen_100dp">100dp</dimen>
+</resources>

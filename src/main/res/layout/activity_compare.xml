@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#80000000"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/TITLE"
+        layout="@layout/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/view_picture_comparison_grid"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="14dp"
+        android:background="#00ffffff"
+        android:gravity="center"
+        android:listSelector="#00ffffff"
+        android:numColumns="4"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth" />
+
+    <TextView
+        android:id="@+id/view_picture_person_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/dimen_14dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_no_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_blue_background"
+            android:gravity="center"
+            android:text="点击这里选择照片,与推送照片进行比对"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/btn_take_disappear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:orientation="horizontal"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/activity_main_start"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_pic_comparison_orange_bg_frame"
+        android:text="开始比对"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
